@@ -76,7 +76,7 @@ function App() {
             
             <div className="hidden md:flex items-center space-x-8">
               <Link to="/" className="hover:text-[#00A3FF] transition-colors">Home</Link>
-              <Link to="/blogs" className="hover:text-[#00A3FF] transition-colors">Blogs</Link>
+              <Link to="/newblog" className="hover:text-[#00A3FF] transition-colors">Blogs</Link>
               <Link to="/about" className="hover:text-[#00A3FF] transition-colors">About</Link>
               <Link to="/contact" className="hover:text-[#00A3FF] transition-colors">Contact</Link>
               <button className="p-2 hover:bg-[#101D42] rounded-full transition-colors">

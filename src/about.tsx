@@ -7,33 +7,29 @@ export default function About() {
 
   // Sample car images for the carousel
   const carouselImages = [
+    
     {
       id: 1,
-      url: "https://images.unsplash.com/photo-1494972308805-463bc619d34e",
-      caption: "Our team at Tokyo Auto Salon 2024"
-    },
-    {
-      id: 2,
       url: "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
       caption: "Garage setup with premium tools"
     },
     {
-      id: 3,
+      id: 2,
       url: "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d",
       caption: "Custom build in progress"
     },
     {
-      id: 4,
+      id: 3,
       url: "https://images.unsplash.com/photo-1555215695-3004980ad54e",
       caption: "Track day with community members"
     },
     {
-      id: 5,
+      id: 4,
       url: "https://images.unsplash.com/photo-1511919884226-fd3cad34687c",
       caption: "Engine bay detailing workshop"
     },
     {
-      id: 6,
+      id: 5,
       url: "https://images.unsplash.com/photo-1504215680853-026ed2a45def",
       caption: "Showcase at SEMA 2023"
     },
@@ -58,7 +54,7 @@ export default function About() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
-              <Link to="/" className="text-[#00A3FF] font-bold text-2xl">VAP'D</Link>
+              <Link to="/" className="text-[#00A3FF] font-bold text-2xl">VAP'D DASHSTEAM </Link>
             </div>
             
             <div className="hidden md:flex items-center space-x-8">
@@ -162,29 +158,19 @@ With every car we clean, we are not only preserving its shine and functionality 
         {/* Team Section */}
         <div className="mb-20">
           <h2 className="text-3xl font-bold mb-8 text-center">Meet The Team</h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            {[
-             
-
-              {
-                name: "Jamal Williams",
-                role: "Technical Expert",
-                bio: "Master mechanic with a passion for performance tuning",
-                image: "https://randomuser.me/api/portraits/men/75.jpg"
-              }
-            ].map((member, index) => (
-              <div key={index} className="bg-[#101D42]/50 p-6 rounded-lg text-center display-flex flex-col items-center">
-                <img 
-                  src={member.image} 
-                  alt={member.name}
-                  className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
-                />
-                <h3 className="text-xl font-bold">{member.name}</h3>
-                <p className="text-[#00A3FF] mb-2">{member.role}</p>
-                <p className="text-gray-300">{member.bio}</p>
-              </div>
-            ))}
-          </div>
+          <div className="w-full md:w-2/3">
+              <h3 className="text-2xl font-bold text-[#00A3FF] mb-2">Aman Kumar</h3>
+              <p className="text-lg font-medium mb-6">Chief Technical Officer</p>
+              <p className="text-gray-300 mb-4">
+                Building this platform has been a journey filled with challenges, late nights, and countless iterations. Every line of code represents our commitment to creating a seamless experience for you.
+              </p>
+              <p className="text-gray-300 mb-4">
+                From designing a user-friendly interface to ensuring every feature works flawlessly, the process wasn't easy, but it was fueled by passion. Knowing this platform will soon connect you with our eco-friendly services made every struggle worthwhile.
+              </p>
+              <p className="text-gray-300">
+                This isn't just a website; it's the foundation of our dream to make car care simpler and greener for everyone. Your support is what drives us forward. Thank you for being part of this journey.
+              </p>
+            </div>
         </div>
 
         {/* Community Section */}
